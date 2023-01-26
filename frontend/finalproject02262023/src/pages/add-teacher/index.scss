@@ -1,0 +1,27 @@
+.addData{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input{
+        width: 300px;
+        padding: 13px;
+        border: 1px solid rgba(182, 181, 181, 0.933);
+        outline: none;
+        border-radius: 3px;
+    }
+    button{
+        padding: 14px 20px ;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        background-color: #7971ea;
+        border: 1px solid transparent;
+    }
+   }
+}
